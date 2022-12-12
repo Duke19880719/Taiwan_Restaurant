@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0790BA01289AC0FC003D2277 /* Taiwan_RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BA00289AC0FC003D2277 /* Taiwan_RestaurantApp.swift */; };
+		0790BA03289AC0FC003D2277 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BA02289AC0FC003D2277 /* ContentView.swift */; };
+		0790BA05289AC0FF003D2277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0790BA04289AC0FF003D2277 /* Assets.xcassets */; };
+		0790BA08289AC0FF003D2277 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0790BA07289AC0FF003D2277 /* Preview Assets.xcassets */; };
+		0790BA12289AC0FF003D2277 /* Taiwan_RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BA11289AC0FF003D2277 /* Taiwan_RestaurantTests.swift */; };
+		0790BA1C289AC0FF003D2277 /* Taiwan_RestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BA1B289AC0FF003D2277 /* Taiwan_RestaurantUITests.swift */; };
+		0790BA1E289AC0FF003D2277 /* Taiwan_RestaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BA1D289AC0FF003D2277 /* Taiwan_RestaurantUITestsLaunchTests.swift */; };
+		0790BA2B289AC163003D2277 /* opening_animation_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BA2A289AC163003D2277 /* opening_animation_view.swift */; };
+		0790BA2D289AC199003D2277 /* Model(json_struct).swift in Sources */ = {isa = PBXBuildFile; fileRef = 0790BA2C289AC199003D2277 /* Model(json_struct).swift */; };
+		0790BA38289AE091003D2277 /* RaviPrakash-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0790BA37289AE091003D2277 /* RaviPrakash-Regular.ttf */; };
+		0790BA39289AE091003D2277 /* RaviPrakash-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0790BA37289AE091003D2277 /* RaviPrakash-Regular.ttf */; };
+		0790BA3A289AE091003D2277 /* RaviPrakash-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0790BA37289AE091003D2277 /* RaviPrakash-Regular.ttf */; };
+		079488AB28D0D31200EB237A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079488AA28D0D31200EB237A /* ListView.swift */; };
+		0799113E2942368200320CDE /* View_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0799113D2942368200320CDE /* View_Model.swift */; };
+		079C79BA2946368B00A8435D /* top_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C79B92946368B00A8435D /* top_view.swift */; };
+		079C79BC2946370C00A8435D /* back_to_selectview_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C79BB2946370C00A8435D /* back_to_selectview_button.swift */; };
+		079C79BE2946373000A8435D /* ListView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C79BD2946373000A8435D /* ListView1.swift */; };
+		079C79C02946374600A8435D /* select_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079C79BF2946374600A8435D /* select_view.swift */; };
+		07A3113A2911677200CF9CDD /* Restaurant_Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A311392911677200CF9CDD /* Restaurant_Information.swift */; };
+		07A4232528C8867100A82494 /* Data_Loading_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4232428C8867100A82494 /* Data_Loading_Animation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0790BA0E289AC0FF003D2277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0790B9F5289AC0FC003D2277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0790B9FC289AC0FC003D2277;
+			remoteInfo = Taiwan_Restaurant;
+		};
+		0790BA18289AC0FF003D2277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0790B9F5289AC0FC003D2277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0790B9FC289AC0FC003D2277;
+			remoteInfo = Taiwan_Restaurant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0790B9FD289AC0FC003D2277 /* Taiwan_Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taiwan_Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790BA00289AC0FC003D2277 /* Taiwan_RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_RestaurantApp.swift; sourceTree = "<group>"; };
+		0790BA02289AC0FC003D2277 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0790BA04289AC0FF003D2277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0790BA07289AC0FF003D2277 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0790BA0D289AC0FF003D2277 /* Taiwan_RestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Taiwan_RestaurantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790BA11289AC0FF003D2277 /* Taiwan_RestaurantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_RestaurantTests.swift; sourceTree = "<group>"; };
+		0790BA17289AC0FF003D2277 /* Taiwan_RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Taiwan_RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0790BA1B289AC0FF003D2277 /* Taiwan_RestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_RestaurantUITests.swift; sourceTree = "<group>"; };
+		0790BA1D289AC0FF003D2277 /* Taiwan_RestaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwan_RestaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0790BA2A289AC163003D2277 /* opening_animation_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opening_animation_view.swift; sourceTree = "<group>"; };
+		0790BA2C289AC199003D2277 /* Model(json_struct).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model(json_struct).swift"; sourceTree = "<group>"; };
+		0790BA37289AE091003D2277 /* RaviPrakash-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RaviPrakash-Regular.ttf"; sourceTree = "<group>"; };
+		079488AA28D0D31200EB237A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		0799113D2942368200320CDE /* View_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Model.swift; sourceTree = "<group>"; };
+		079C79B92946368B00A8435D /* top_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = top_view.swift; sourceTree = "<group>"; };
+		079C79BB2946370C00A8435D /* back_to_selectview_button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = back_to_selectview_button.swift; sourceTree = "<group>"; };
+		079C79BD2946373000A8435D /* ListView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView1.swift; sourceTree = "<group>"; };
+		079C79BF2946374600A8435D /* select_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = select_view.swift; sourceTree = "<group>"; };
+		07A311392911677200CF9CDD /* Restaurant_Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_Information.swift; sourceTree = "<group>"; };
+		07A4232428C8867100A82494 /* Data_Loading_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Loading_Animation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0790B9FA289AC0FC003D2277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790BA0A289AC0FF003D2277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790BA14289AC0FF003D2277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0790B9F4289AC0FC003D2277 = {
+			isa = PBXGroup;
+			children = (
+				0790B9FF289AC0FC003D2277 /* Taiwan_Restaurant */,
+				0790BA10289AC0FF003D2277 /* Taiwan_RestaurantTests */,
+				0790BA1A289AC0FF003D2277 /* Taiwan_RestaurantUITests */,
+				0790B9FE289AC0FC003D2277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0790B9FE289AC0FC003D2277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0790B9FD289AC0FC003D2277 /* Taiwan_Restaurant.app */,
+				0790BA0D289AC0FF003D2277 /* Taiwan_RestaurantTests.xctest */,
+				0790BA17289AC0FF003D2277 /* Taiwan_RestaurantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0790B9FF289AC0FC003D2277 /* Taiwan_Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				079C79B829462A7F00A8435D /* ViewModel */,
+				079C79B729462A6D00A8435D /* Model */,
+				079C79B629462A1A00A8435D /* View */,
+				0790BA2E289AD54C003D2277 /* Fonts */,
+				0790BA00289AC0FC003D2277 /* Taiwan_RestaurantApp.swift */,
+				0790BA04289AC0FF003D2277 /* Assets.xcassets */,
+				0790BA06289AC0FF003D2277 /* Preview Content */,
+			);
+			path = Taiwan_Restaurant;
+			sourceTree = "<group>";
+		};
+		0790BA06289AC0FF003D2277 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0790BA07289AC0FF003D2277 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0790BA10289AC0FF003D2277 /* Taiwan_RestaurantTests */ = {
+			isa = PBXGroup;
+			children = (
+				0790BA11289AC0FF003D2277 /* Taiwan_RestaurantTests.swift */,
+			);
+			path = Taiwan_RestaurantTests;
+			sourceTree = "<group>";
+		};
+		0790BA1A289AC0FF003D2277 /* Taiwan_RestaurantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0790BA1B289AC0FF003D2277 /* Taiwan_RestaurantUITests.swift */,
+				0790BA1D289AC0FF003D2277 /* Taiwan_RestaurantUITestsLaunchTests.swift */,
+			);
+			path = Taiwan_RestaurantUITests;
+			sourceTree = "<group>";
+		};
+		0790BA2E289AD54C003D2277 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0790BA37289AE091003D2277 /* RaviPrakash-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		079C79B629462A1A00A8435D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0790BA02289AC0FC003D2277 /* ContentView.swift */,
+				07A4232428C8867100A82494 /* Data_Loading_Animation.swift */,
+				0790BA2A289AC163003D2277 /* opening_animation_view.swift */,
+				079488AA28D0D31200EB237A /* ListView.swift */,
+				07A311392911677200CF9CDD /* Restaurant_Information.swift */,
+				079C79B92946368B00A8435D /* top_view.swift */,
+				079C79BB2946370C00A8435D /* back_to_selectview_button.swift */,
+				079C79BD2946373000A8435D /* ListView1.swift */,
+				079C79BF2946374600A8435D /* select_view.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		079C79B729462A6D00A8435D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0790BA2C289AC199003D2277 /* Model(json_struct).swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		079C79B829462A7F00A8435D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0799113D2942368200320CDE /* View_Model.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0790B9FC289AC0FC003D2277 /* Taiwan_Restaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790BA21289AC0FF003D2277 /* Build configuration list for PBXNativeTarget "Taiwan_Restaurant" */;
+			buildPhases = (
+				0790B9F9289AC0FC003D2277 /* Sources */,
+				0790B9FA289AC0FC003D2277 /* Frameworks */,
+				0790B9FB289AC0FC003D2277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taiwan_Restaurant;
+			productName = Taiwan_Restaurant;
+			productReference = 0790B9FD289AC0FC003D2277 /* Taiwan_Restaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0790BA0C289AC0FF003D2277 /* Taiwan_RestaurantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790BA24289AC0FF003D2277 /* Build configuration list for PBXNativeTarget "Taiwan_RestaurantTests" */;
+			buildPhases = (
+				0790BA09289AC0FF003D2277 /* Sources */,
+				0790BA0A289AC0FF003D2277 /* Frameworks */,
+				0790BA0B289AC0FF003D2277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0790BA0F289AC0FF003D2277 /* PBXTargetDependency */,
+			);
+			name = Taiwan_RestaurantTests;
+			productName = Taiwan_RestaurantTests;
+			productReference = 0790BA0D289AC0FF003D2277 /* Taiwan_RestaurantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0790BA16289AC0FF003D2277 /* Taiwan_RestaurantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790BA27289AC0FF003D2277 /* Build configuration list for PBXNativeTarget "Taiwan_RestaurantUITests" */;
+			buildPhases = (
+				0790BA13289AC0FF003D2277 /* Sources */,
+				0790BA14289AC0FF003D2277 /* Frameworks */,
+				0790BA15289AC0FF003D2277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0790BA19289AC0FF003D2277 /* PBXTargetDependency */,
+			);
+			name = Taiwan_RestaurantUITests;
+			productName = Taiwan_RestaurantUITests;
+			productReference = 0790BA17289AC0FF003D2277 /* Taiwan_RestaurantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0790B9F5289AC0FC003D2277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0790B9FC289AC0FC003D2277 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					0790BA0C289AC0FF003D2277 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0790B9FC289AC0FC003D2277;
+					};
+					0790BA16289AC0FF003D2277 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 0790B9FC289AC0FC003D2277;
+					};
+				};
+			};
+			buildConfigurationList = 0790B9F8289AC0FC003D2277 /* Build configuration list for PBXProject "Taiwan_Restaurant" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0790B9F4289AC0FC003D2277;
+			productRefGroup = 0790B9FE289AC0FC003D2277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0790B9FC289AC0FC003D2277 /* Taiwan_Restaurant */,
+				0790BA0C289AC0FF003D2277 /* Taiwan_RestaurantTests */,
+				0790BA16289AC0FF003D2277 /* Taiwan_RestaurantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0790B9FB289AC0FC003D2277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790BA08289AC0FF003D2277 /* Preview Assets.xcassets in Resources */,
+				0790BA05289AC0FF003D2277 /* Assets.xcassets in Resources */,
+				0790BA38289AE091003D2277 /* RaviPrakash-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790BA0B289AC0FF003D2277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790BA39289AE091003D2277 /* RaviPrakash-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790BA15289AC0FF003D2277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790BA3A289AE091003D2277 /* RaviPrakash-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0790B9F9289AC0FC003D2277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079C79BC2946370C00A8435D /* back_to_selectview_button.swift in Sources */,
+				0790BA03289AC0FC003D2277 /* ContentView.swift in Sources */,
+				079C79C02946374600A8435D /* select_view.swift in Sources */,
+				07A3113A2911677200CF9CDD /* Restaurant_Information.swift in Sources */,
+				0790BA2B289AC163003D2277 /* opening_animation_view.swift in Sources */,
+				079488AB28D0D31200EB237A /* ListView.swift in Sources */,
+				07A4232528C8867100A82494 /* Data_Loading_Animation.swift in Sources */,
+				079C79BA2946368B00A8435D /* top_view.swift in Sources */,
+				079C79BE2946373000A8435D /* ListView1.swift in Sources */,
+				0790BA2D289AC199003D2277 /* Model(json_struct).swift in Sources */,
+				0799113E2942368200320CDE /* View_Model.swift in Sources */,
+				0790BA01289AC0FC003D2277 /* Taiwan_RestaurantApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790BA09289AC0FF003D2277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790BA12289AC0FF003D2277 /* Taiwan_RestaurantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0790BA13289AC0FF003D2277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790BA1C289AC0FF003D2277 /* Taiwan_RestaurantUITests.swift in Sources */,
+				0790BA1E289AC0FF003D2277 /* Taiwan_RestaurantUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0790BA0F289AC0FF003D2277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0790B9FC289AC0FC003D2277 /* Taiwan_Restaurant */;
+			targetProxy = 0790BA0E289AC0FF003D2277 /* PBXContainerItemProxy */;
+		};
+		0790BA19289AC0FF003D2277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0790B9FC289AC0FC003D2277 /* Taiwan_Restaurant */;
+			targetProxy = 0790BA18289AC0FF003D2277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0790BA1F289AC0FF003D2277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0790BA20289AC0FF003D2277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0790BA22289AC0FF003D2277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taiwan_Restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = V36DN36XUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taiwan-Restaurant-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "allen.Taiwan-Restaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0790BA23289AC0FF003D2277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taiwan_Restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = V36DN36XUL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taiwan-Restaurant-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "allen.Taiwan-Restaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0790BA25289AC0FF003D2277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V36DN36XUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "allen.Taiwan-RestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan_Restaurant.app/Taiwan_Restaurant";
+			};
+			name = Debug;
+		};
+		0790BA26289AC0FF003D2277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V36DN36XUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "allen.Taiwan-RestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwan_Restaurant.app/Taiwan_Restaurant";
+			};
+			name = Release;
+		};
+		0790BA28289AC0FF003D2277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V36DN36XUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "allen.Taiwan-RestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taiwan_Restaurant;
+			};
+			name = Debug;
+		};
+		0790BA29289AC0FF003D2277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V36DN36XUL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "allen.Taiwan-RestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taiwan_Restaurant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0790B9F8289AC0FC003D2277 /* Build configuration list for PBXProject "Taiwan_Restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790BA1F289AC0FF003D2277 /* Debug */,
+				0790BA20289AC0FF003D2277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790BA21289AC0FF003D2277 /* Build configuration list for PBXNativeTarget "Taiwan_Restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790BA22289AC0FF003D2277 /* Debug */,
+				0790BA23289AC0FF003D2277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790BA24289AC0FF003D2277 /* Build configuration list for PBXNativeTarget "Taiwan_RestaurantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790BA25289AC0FF003D2277 /* Debug */,
+				0790BA26289AC0FF003D2277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0790BA27289AC0FF003D2277 /* Build configuration list for PBXNativeTarget "Taiwan_RestaurantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0790BA28289AC0FF003D2277 /* Debug */,
+				0790BA29289AC0FF003D2277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0790B9F5289AC0FC003D2277 /* Project object */;
+}
